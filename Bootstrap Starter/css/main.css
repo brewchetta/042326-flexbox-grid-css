@@ -1,0 +1,11 @@
+img {
+    max-width: 100%;
+}
+
+.row {
+    border: dashed green 5px;
+}
+
+.col {
+    border: dotted red 5px;
+}
