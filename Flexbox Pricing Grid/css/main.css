@@ -1,3 +1,40 @@
+/* FLEX GRID CONTAINER STYLING */
+
+main {
+	display: flex;
+	gap: 30px;
+	align-items: start;
+}
+
+main section {
+	flex-basis: 33.3%;
+	margin: 0;
+}
+
+.secondary {
+	order: -1;
+}
+
+div.text-wrapper {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+p.price {
+	margin-top: auto;
+}
+
+.primary div.text-wrapper {
+	height: auto;
+}
+
+section:not(:first-child) {
+	margin-top: 44px;
+}
+
+/* OTHER STYLING */
+
 *, *::before, *::after { 
 	box-sizing: border-box;
 }

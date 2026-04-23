@@ -2,10 +2,20 @@ img {
     max-width: 100%;
 }
 
-.row {
+/* .row {
     border: dashed green 5px;
 }
 
 .col {
     border: dotted red 5px;
+} */
+
+/* overwriting the bootstrap css */
+
+/* .col-2 {
+    width: 25%;
 }
+
+.col-3 {
+    width: 16.6666666667%;
+} */
