@@ -1,3 +1,31 @@
+/* HEADER STYLING */
+
+header {
+	height: 100vh;
+	background: linear-gradient(#ff00f200, #ff00f2ff), url(../img/mountains@2x.jpg) center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 60px 0 20px;
+}
+
+header h1 {
+	margin: auto;
+}
+
+@keyframes bounce {
+	0% { transform: translateY(0px) }
+	50% { transform: translateY(30px) }
+	100% { transform: translateY(0px) }
+}
+
+a.scroll-down:hover img {
+	animation: bounce 1s ease;
+}
+
+/* OTHER STYLING */
+
 *, *::before, *::after { 
 	box-sizing: border-box;
 }
@@ -20,7 +48,6 @@ p {
 }
 header {
 	color: #fff;
-	background: url(../img/mountains@2x.jpg) center;
 	background-size: cover;
 }
 h1 {
