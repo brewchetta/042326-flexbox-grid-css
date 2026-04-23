@@ -1,3 +1,65 @@
+/* FLEXBOX STYLING */
+
+ul.navbar {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: end;
+	height: 40vh;
+}
+
+ul.navbar li {
+	/* flex-grow: 1; */
+}
+
+ul.navbar li.about {
+	background: magenta;
+	/* flex-grow: 1; */
+	align-self: stretch;
+	/* flex-grow: 0; */
+}
+
+ul.navbar li.logo {
+	/* flex-grow: 1; */
+	/* flex-shrink: 0;
+	flex-basis: 120px; */
+	flex: 1 0 120px;
+}
+
+/* div.links {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+} */
+
+footer {
+	display: flex;
+	flex-direction: column;
+	height: 50vh;
+	justify-content: space-between;
+	align-items: center;
+}
+
+footer div {
+	flex-grow: 0;
+}
+
+div.address {
+	flex-grow: 10;
+}
+
+div.copyright {
+	/* margin-top: auto; */
+	/* margin-bottom: auto; */
+	flex-grow: 10;
+}
+
+li.hikes {
+	/* margin-left: auto; */
+}
+
+/* OTHER STYLING */
+
 *, *::before, *::after { 
 	box-sizing: border-box;
 }
@@ -32,7 +94,7 @@ img {
 	background: #0978e2;
 }
 .navbar .about {
-	background: #0000d5;
+	background: magenta;
 }
 .navbar .contact {
 	background: #9700da;
