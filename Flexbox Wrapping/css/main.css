@@ -1,3 +1,19 @@
+/* WRAP STYLES */
+
+ul.navbar {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+ul.navbar li.logo {
+	flex-shrink: 0;
+	flex-basis: 160px;
+	margin-right: auto;
+}
+
+/* OTHER STYLING */
+
 *, *::before, *::after { 
 	box-sizing: border-box;
 }
