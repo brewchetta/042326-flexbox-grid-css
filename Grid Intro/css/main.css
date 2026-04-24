@@ -2,7 +2,7 @@
 
 .container {
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 	/* grid-template-rows: 200px 200px 200px; */
 	/* grid-template-rows: repeat(3, 200px); */
 	/* column-gap: 30px;
@@ -27,18 +27,6 @@
 	grid-column-start: 1;
 	grid-column-end: 3;
 }
-
-/* RETURN AT 11:31 EST */
-/* RETURN AT 11:31 EST */
-/* RETURN AT 11:31 EST */
-/* RETURN AT 11:31 EST */
-/* RETURN AT 11:31 EST */
-/* RETURN AT 11:31 EST */
-/* RETURN AT 11:31 EST */
-/* RETURN AT 11:31 EST */
-/* RETURN AT 11:31 EST */
-/* RETURN AT 11:31 EST */
-
 
 .row-span-3 {
 	grid-row: span 3;
