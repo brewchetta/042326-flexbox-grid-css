@@ -1,3 +1,33 @@
+/* ALIGNMENT STYLING */
+
+.gallery {
+	display: grid;
+	height: 100vh;
+	gap: 30px;
+	grid-template-columns: repeat(4, 100px);
+	/* aligns within an individual grid cell */
+	justify-items: center;
+	align-items: center;
+	/* aligns cells on the grid */
+	justify-content: center;
+	align-content: center;
+}
+
+.gallery * {
+	/* border: solid black 2px; */
+}
+
+.diesel {
+	align-self: end;
+	order: -1;
+}
+
+.mitsubishi {
+	justify-self: center;
+}
+
+/* OTHER STYLING */
+
 *, *::before, *::after { 
 	box-sizing: border-box;
 }
