@@ -34,6 +34,7 @@ main div {
 
 div.ad {
 	grid-area: ad;
+	z-index: -2;
 }
 
 div.ad-two {
@@ -42,6 +43,14 @@ div.ad-two {
 
 footer {
 	grid-area: footer;
+}
+
+.overlay {
+	color: white;
+	background: #f00a;
+	grid-column: nav-start / hero-end;
+	grid-row: hero-start / ad-end;
+	z-index: -1;
 }
 
 /* OTHER STYLING */
