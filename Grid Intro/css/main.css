@@ -1,3 +1,62 @@
+/* GRID STYLING */
+
+.container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	/* grid-template-rows: 200px 200px 200px; */
+	/* grid-template-rows: repeat(3, 200px); */
+	/* column-gap: 30px;
+	row-gap: 10px; */
+	gap: 10px 30px;
+	grid-auto-flow: row;
+	grid-auto-rows: 100px;
+}
+
+.container div {
+	border: solid black 2px;
+}
+
+.container :nth-child(2) {
+	grid-column: span 2;
+}
+
+.container :nth-child(8) {
+	/* grid-column: span 4; */
+	grid-row-start: 5;
+	grid-row-end: 8;
+	grid-column-start: 1;
+	grid-column-end: 3;
+}
+
+/* RETURN AT 11:31 EST */
+/* RETURN AT 11:31 EST */
+/* RETURN AT 11:31 EST */
+/* RETURN AT 11:31 EST */
+/* RETURN AT 11:31 EST */
+/* RETURN AT 11:31 EST */
+/* RETURN AT 11:31 EST */
+/* RETURN AT 11:31 EST */
+/* RETURN AT 11:31 EST */
+/* RETURN AT 11:31 EST */
+
+
+.row-span-3 {
+	grid-row: span 3;
+}
+
+.header {
+	grid-column: span 4;
+	grid-row: span 3;
+}
+
+.container :last-child {
+	/* grid-column-start: 1;
+	grid-column-end: -1; */
+	grid-column: 1 / -1;
+}
+
+/* OTHER STYLING */
+
 *, *::before, *::after { 
 	box-sizing: border-box;
 }
