@@ -2,6 +2,17 @@ img {
     max-width: 100%;
 }
 
+.card h2 {
+    font-size: 1.7em;
+}
+
+div.footer-links * {
+    border: none;
+}
+
+div.footer-links {
+    border-radius: 0;
+}
 /* .row {
     border: dashed green 5px;
 }
